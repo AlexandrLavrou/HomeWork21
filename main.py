@@ -1,4 +1,4 @@
-from extender import storage_list, storage_1, storage_2, shop_1
+from extender import storage_list
 from request import Request
 
 
