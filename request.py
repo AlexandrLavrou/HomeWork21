@@ -10,7 +10,7 @@ class Request:
         self._list = _list
 
     def move(self):
-        # if self._to and self._from in self._list:
+
         exec(self._to).add(self._item, self._count)
         exec(self._from).remove(self._item, self._count)
         # else:

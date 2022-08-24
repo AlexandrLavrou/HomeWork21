@@ -2,12 +2,6 @@ from extender import storage_list
 from request import Request
 
 
-
-print(f"storage_1:{storage_list[0]}")
-print(f"storage_2:{storage_list[1]}")
-print(f"shop_1:{storage_list[2]}")
-
-print("\n\n")
 user_text = "Со storage_1 в shop_1 перенести 2 Телефон"
 req = Request(storage_list, user_text)
 req.move()
