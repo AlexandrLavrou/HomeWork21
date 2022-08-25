@@ -9,7 +9,7 @@ from request import Request
 # print(f"shop_1:{storage_dict['магазин']}")
 
 while True:
-    print("Формула пеерноса: Из <area№1> в <area№2> переместить <кол-во> <Товар>")
+    print("Формула переноса: Из <area№1> в <area№2> переместить <кол-во> <Товар>")
     print(f"склад1:{storage_dict['склад1']}")
     print(f"склад2:{storage_dict['склад2']}")
     print(f"магазин:{storage_dict['магазин']}")

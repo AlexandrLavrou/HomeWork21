@@ -12,6 +12,6 @@ class Request:
         self.storage_dict = storage_dict
 
     def move(self):
-        # if self.storage_dict[self._from] in self.storage_dict.keys():
-        storage_dict[self._from].remove(self._item, self._count)
-        storage_dict[self._to].add(self._item, self._count)
+        if self._from and self._to in self.storage_dict.keys():
+            self.storage_dict[self._from].remove(self._item, self._count)
+            self.storage_dict[self._to].add(self._item, self._count)
